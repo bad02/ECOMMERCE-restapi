@@ -1,0 +1,28 @@
+ERRORS
+
+VERSIONING ISSUE
+
+"IndentationError: expected an indented block"
+
+
+2023-01-14 14:45:25 drf_course-api-1  | exec /code/docker/entrypoints/entrypoint.sh: no such file or directory
+2023-01-14 14:46:26 drf_course-api-1  | exec /code/docker/entrypoints/entrypoint.sh: no such file or directory
+2023-01-14 14:47:26 drf_course-api-1  | exec /code/docker/entrypoints/entrypoint.sh: no such file or directory
+2023-01-14 14:48:27 drf_course-api-1  | exec /code/docker/entrypoints/entrypoint.sh: no such file or directory
+2023-01-14 14:49:27 drf_course-api-1  | exec /code/docker/entrypoints/entrypoint.sh: no such file or directory
+2023-01-14 14:50:28 drf_course-api-1  | exec /code/docker/entrypoints/entrypoint.sh: no such file or directory
+2023-01-14 14:51:29 drf_course-api-1  | exec /code/docker/entrypoints/entrypoint.sh: no such file or directory
+2023-01-14 14:52:29 drf_course-api-1  | exec /code/docker/entrypoints/entrypoint.sh: no such file or directory
+2023-01-14 14:53:30 drf_course-api-1  | exec /code/docker/entrypoints/entrypoint.sh: no such file or directory
+
+
+
+# http: error: ConnectionError: HTTPConnectionPool(host='api', port=8000): Max retries exceeded with url: /contact/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f49f55d2130>: Failed to establish a new connection: [Errno -3] Temporary failure in name exec /code/docker/entrypoints/entrypoint.sh: no such file or directory   
+
+
+
+# http: error: ConnectionError: HTTPConnectionPool(host='api', port=8000): Max retries exceeded with url: /contact/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f49f55d2130>: Failed to establish a new connection: [Errno -3] Temporary failure in name exec /code/docker/entrypoints/entrypoint.sh: no such file or directory   
+
+
+
+link: http://127.0.0.1:8000/admin
